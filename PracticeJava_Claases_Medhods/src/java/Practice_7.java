@@ -13,7 +13,7 @@ public class Practice_7 {
     }
     public static boolean isInRange(int a, int b, int num){
         boolean res = false;
-        if (a > b) {
+        if (a > b)  {
             if ((a > num) && (num > b)) {
                 res = true;
             }
@@ -22,8 +22,11 @@ public class Practice_7 {
             if ((b > num) && (num > a)) {
                 res = true;
             }
-        }
-        else {
+        } else if (a == b) {
+            if (num == a){
+                res = true;
+            }
+        } else {
             res = false;
         }
         System.out.println(res);
