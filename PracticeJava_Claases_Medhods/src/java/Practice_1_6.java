@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Practice_6
+public class Practice_1_6
 {
     public static void main(String[] args) {
         System.out.print("Введите латинский символ в верхнем регистре: ");

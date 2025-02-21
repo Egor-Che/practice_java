@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Practice_9 {
+public class Practice_1_9 {
     static boolean res = false;
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

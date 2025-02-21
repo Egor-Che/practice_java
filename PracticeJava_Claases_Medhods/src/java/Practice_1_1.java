@@ -1,4 +1,4 @@
-public class Practice_1 {
+public class Practice_1_1 {
     public static void main(String[] args) {
         System.out.println(fraction(5.3454));
         System.out.println(fraction(2.75446763));

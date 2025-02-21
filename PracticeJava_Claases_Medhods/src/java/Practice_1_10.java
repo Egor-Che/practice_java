@@ -1,4 +1,4 @@
-public class Practice_10 {
+public class Practice_1_10 {
     public static void main(String[] args) {
         int a = 5;
         int[] b = new int[4];
