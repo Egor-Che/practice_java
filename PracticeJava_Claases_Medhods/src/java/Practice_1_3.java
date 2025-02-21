@@ -1,13 +1,19 @@
-import java.util.Scanner;
 public class Practice_1_3 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.print("Пожалуйста, введите цифру от 0 до 9: ");
-        int x = in.nextInt();
-        System.out.println(charToNum((char) x));
+        System.out.println(charToNum('0'));
+        System.out.println(charToNum('1'));
+        System.out.println(charToNum('2'));
+        System.out.println(charToNum('3'));
+        System.out.println(charToNum('4'));
+        System.out.println(charToNum('5'));
+        System.out.println(charToNum('6'));
+        System.out.println(charToNum('7'));
+        System.out.println(charToNum('8'));
+        System.out.println(charToNum('9'));
     }
     public static int charToNum(char x){
-        x = Integer.toString(x).charAt(0);
+        System.out.println("x=" + x);
+        System.out.print("Результат: ");
         return x;
     }
 }
