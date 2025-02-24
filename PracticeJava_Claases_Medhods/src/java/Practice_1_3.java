@@ -14,6 +14,6 @@ public class Practice_1_3 {
     public static int charToNum(char x){
         System.out.println("x=" + x);
         System.out.print("Результат: ");
-        return x;
+        return (x - '0');
     }
 }
