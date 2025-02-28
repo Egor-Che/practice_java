@@ -1,3 +1,5 @@
+package java.metody;
+
 import java.util.Scanner;
 public class Practice_2_4 {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package java.classy;
+
 import java.util.Scanner;
 public class Practice_1_7 {
     public static void main(String[] args) {
