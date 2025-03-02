@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class Reverse {
     public static void main(String[] args) {
-        int[] arr = new int[]{1,2,3,4,5};
+        int[] arr = new int[]{1,2,3,4,5,6,9};
         reverse(arr);
     }
     public static void reverse(int[] arr){
@@ -11,7 +11,7 @@ public class Reverse {
         int[] reverseArr = new int[len2];
         for (int i = len1; i >=0; i--) {
             reverseArr[e] = arr[i];
-            if (e < 4){
+            if (e < len1){
                 e++;
             }
         }
