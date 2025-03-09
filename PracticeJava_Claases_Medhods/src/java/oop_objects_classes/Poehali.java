@@ -10,7 +10,7 @@ public class Poehali {
         System.out.println(" " + p3);
 
         System.out.print(p2 + " ");
-        System.out.print(p2.equals(p3));//сравнение второй и третьей
+        System.out.print(((p2.x) == (p3.x)) && ((p2.y) == (p3.y)));//сравнение второй и третьей
         System.out.println(" " + p3);
 
         System.out.print(p1 + " ");
