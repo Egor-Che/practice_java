@@ -4,7 +4,7 @@ public class Point {
     public int y; // ордината точки
 
     // конструктор, создающий точку с указанными координатами
-    Point( int x, int y){
+    Point(int x, int y){
             this.x = x;
             this.y = y;
     }
