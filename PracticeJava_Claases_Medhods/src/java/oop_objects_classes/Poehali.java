@@ -16,5 +16,9 @@ public class Poehali {
         System.out.print(p1 + " ");
         System.out.print(((p1.x) == (p2.x)) && ((p1.y) == (p2.y)));//сравнение первой и второй
         System.out.println(" " + p2);
+
+
+        Line line = new Line(1, 2, 3, 4);
+        System.out.println(line.toString());
     }
 }
