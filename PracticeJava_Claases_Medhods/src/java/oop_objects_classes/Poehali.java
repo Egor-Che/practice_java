@@ -7,15 +7,15 @@ public class Poehali {
         Point p3 = new Point(5,8);//точка 3
 
         System.out.print(p1 + " ");
-        System.out.print(equals(p1,p2));//сравнение первой и третьей
+        System.out.print(p1.equals(p3));//сравнение первой и третьей
         System.out.println(" " + p3);
 
         System.out.print(p2 + " ");
-        System.out.print(equals(p1,p2));//сравнение второй и третьей
+        System.out.print(p2.equals(p3));//сравнение второй и третьей
         System.out.println(" " + p3);
 
         System.out.print(p1 + " ");
-        System.out.print(equals(p1,p2));//сравнение первой и второй
+        System.out.print(p1.equals(p2));//сравнение первой и второй
         System.out.println(" " + p2);
     }
 }
